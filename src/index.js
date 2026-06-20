@@ -6,16 +6,13 @@ const cron = require("node-cron");
 
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
 
-const {
-    Client,
-    Collection,
-    GatewayIntentBits
-} = require("discord.js");
-
 // Create a discord client
 const client = new Client({
     intents: [GatewayIntentBits.Guilds]
 });
+
+// Path to our data file
+const DATA_FILE = path.join(__dirname, "../data.json");
 
 // store commands
 client.commands = new Collection();
