@@ -1,0 +1,22 @@
+{
+  "name": "that-sucks-that-nathan-is-gone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollinF777/That-Sucks-That-Nathan-Is-Gone.git"
+  },
+  "author": "Collin Fair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CollinF777/That-Sucks-That-Nathan-Is-Gone/issues"
+  },
+  "homepage": "https://github.com/CollinF777/That-Sucks-That-Nathan-Is-Gone#readme",
+  "dependencies": {
+    "discord.js": "^14.26.4"
+  }
+}
