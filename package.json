@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CollinF777/That-Sucks-That-Nathan-Is-Gone#readme",
   "dependencies": {
-    "discord.js": "^14.26.4"
+    "discord.js": "^14.26.4",
+    "node-cron": "^4.4.1"
   }
 }
