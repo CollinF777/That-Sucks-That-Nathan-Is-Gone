@@ -1,3 +1,5 @@
+const express = require("express");
+const app = express();
 require("dotenv").config();
 
 const fs = require("fs");
@@ -5,6 +7,11 @@ const path = require("path");
 const cron = require("node-cron");
 
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
+
+// Simple web server so Render is happy
+app.get("/", (req, res) => {
+    res.send("Discord bot is running");
+});
 
 // Create a discord client
 const client = new Client({
@@ -114,6 +121,12 @@ client.on("interactionCreate", async (interaction) => {
             ephemeral: true,
         });
     }
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`Web server running on port ${PORT}`);
 });
 
 client.login(process.env.TOKEN);
