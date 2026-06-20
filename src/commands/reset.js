@@ -11,7 +11,7 @@ module.exports = {
      * Sets counter back to 0
      */
     data: new SlashCommandBuilder()
-        .setName("He Lives!")
+        .setName("He-Lives")
         .setDescription("Resets the timer."),
     
     async execute(interaction) {

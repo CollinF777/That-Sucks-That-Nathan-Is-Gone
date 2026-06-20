@@ -13,7 +13,7 @@ module.exports = {
      * /Nathan died :( days:25
      */
     data: new SlashCommandBuilder()
-        .setName("Nathan died :(")
+        .setName("Nathan-died")
         .setDescription("Starts the timer.")
         .addIntegerOption((option) =>
             option
