@@ -38,7 +38,7 @@ module.exports = {
         );
 
         await interaction.reply(
-            `Nathan died **${data.days}** days ago :(.`
+            `Nathan died **${data.days}** days ago :(`
         );
     }
 };
