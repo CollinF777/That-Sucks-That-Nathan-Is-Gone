@@ -6,12 +6,12 @@ const DATA_FILE = path.join(__dirname, "../../data.json");
 
 module.exports = {
     /*
-     * /He Lives!
+     * /he-lives
      *
      * Sets counter back to 0
      */
     data: new SlashCommandBuilder()
-        .setName("He-Lives")
+        .setName("he-lives")
         .setDescription("Resets the timer."),
     
     async execute(interaction) {

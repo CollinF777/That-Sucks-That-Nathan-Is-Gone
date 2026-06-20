@@ -9,11 +9,11 @@ module.exports = {
     /*
      * Defines the slash command
      *
-     * /Nathan died :(
-     * /Nathan died :( days:25
+     * /nathan-died :(
+     * /nathan-died days:25
      */
     data: new SlashCommandBuilder()
-        .setName("Nathan-died")
+        .setName("nathan-died")
         .setDescription("Starts the timer.")
         .addIntegerOption((option) =>
             option
